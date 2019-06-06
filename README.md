@@ -19,7 +19,7 @@ $ROOT/data/imagenet_models/ResNet-50-model.caffemodel
 Kitti object detection data should transfer to Pascal VOC style.
 $ROOT/data/VOCdevkit2007
 
-##Running
+## Running
 To runnung testing
 $ python test_theta_w_l.py --gpu id --img BEVPATH
 
