@@ -1,0 +1,7 @@
+*.log
+*.pyc
+*.caffemodel
+output/
+data/VOCdevkit2007
+matlab/CarBirdVOCdevkit2007
+matlab/training
