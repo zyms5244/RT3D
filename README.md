@@ -13,13 +13,16 @@ The results on validation set is here: [download](https://drive.google.com/file/
 
 ## ResNet model 
 $ROOT/data/imagenet_models/ResNet-50-deploy.prototxt
+
 $ROOT/data/imagenet_models/ResNet-50-model.caffemodel
 
 ## Data
 Kitti object detection data should transfer to Pascal VOC style.
-$ROOT/data/VOCdevkit2007
+
+For example: $ROOT/data/VOCdevkit2007
 
 ## Running
 To runnung testing
+
 $ python test_theta_w_l.py --gpu id --img BEVPATH
 
